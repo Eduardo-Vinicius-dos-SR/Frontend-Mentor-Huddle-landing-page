@@ -1,0 +1,66 @@
+@media(max-width: 1200px) {
+    body .main .informations .title {
+        font-size: 3.5rem;
+    }
+
+    body .main .informations .text {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 1000px) {
+    body .main .informations .title {
+        font-size: 3rem;
+    }
+
+    body .main .informations .text {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 768px) {
+    body .header {
+        padding-bottom: 120px;
+    }
+
+    body .main {
+        flex-direction: column;
+    }
+
+    body .main .ilustration {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    body .main .informations {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    body .main .informations .title {
+        font-size: 3rem;
+    }
+
+    body .main .informations .text {
+        font-size: 2.5rem;
+        padding-bottom: 50px;
+    }
+
+    body .main .informations .register-btn {
+        width: 350px;
+    }
+
+    body .footer {
+        height: 400px;
+        padding: 100px 0 100px;
+    }
+
+    body .footer a:first-child {
+        margin-left: auto;
+    }
+
+    body footer a:last-child {
+        margin-right: auto;
+    }
+}
