@@ -19,7 +19,6 @@ body .header {
 
 body .main {
     width: 100%;
-    height: 900px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,11 +30,11 @@ body .main .ilustration {
 }
 
 body .main .informations {
-    width: 40%;
+    width: 42%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 200px;
+    margin-bottom: auto;
 }
 
 body .main .informations .title {
@@ -72,17 +71,16 @@ body .main .informations .register-btn:hover {
 
 body .footer {
     width: 100%;
-    height: 300px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0 40px;
+    padding: 25px 30px;
 }
 
 body .footer a {
     min-width: 70px;
     margin-right: 25px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     border-radius: 50%;
     padding: 18px;
     font-size: 2.5rem;
