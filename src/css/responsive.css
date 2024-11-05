@@ -38,10 +38,6 @@
 }
 
 @media(max-width: 1200px) {
-    body .main img {
-        width: 72%
-    }
-
     body .main {
         padding: 0 60px 50px;
     }
@@ -69,7 +65,13 @@
 
 @media(max-width: 768px) {
     body .header {
-        padding: 35px 80px 110px;
+        padding: 35px 0 110px;
+    }
+
+    body .header img {
+        width: 55%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     body .main {
@@ -89,7 +91,7 @@
         align-items: center;
     }
 
-    body .main .informations .title{
+    body .main .informations .title {
         font-size: 4rem;
         padding-bottom: 30px;
     }
