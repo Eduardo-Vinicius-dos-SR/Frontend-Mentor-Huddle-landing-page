@@ -14,11 +14,11 @@
     body .main .informations .title {
         padding-top: 10px;
         padding-bottom: 30px;
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     body .main .informations .text {
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 
     body .main .informations .register-btn {
